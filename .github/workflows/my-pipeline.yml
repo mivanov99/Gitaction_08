@@ -5,10 +5,13 @@ on:
       - main
       - jenk
     workflow_dispatch:
+    
 jobs:
   my_first_job:
     runs-on: ubuntu-latest
+    
     steps:
+    
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
